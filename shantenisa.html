@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume - Shantenisa Fransman</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #2c3e50;
+    }
+    .container {
+      max-width: 950px;
+      margin: 20px auto;
+      background: #fff;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    .sidebar {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px;
+    }
+    .sidebar h1 {
+      font-size: 1.8em;
+      margin: 0 0 8px;
+    }
+    .sidebar p {
+      margin: 4px 0;
+      font-size: 0.85em;
+      color: #dfe6e9;
+    }
+    .sidebar h2 {
+      font-size: 1em;
+      margin-top: 15px;
+      border-bottom: 1px solid #444;
+      padding-bottom: 4px;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 6px 0;
+    }
+    .sidebar ul li {
+      margin-bottom: 5px;
+      font-size: 0.85em;
+    }
+    .main {
+      padding: 20px;
+    }
+    .main h2 {
+      font-size: 1.1em;
+      margin-bottom: 6px;
+      color: #1a1a1a;
+      border-left: 3px solid #3498db;
+      padding-left: 8px;
+    }
+    .main section {
+      margin-bottom: 15px;
+    }
+    .main ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .main ul li {
+      margin-bottom: 4px;
+      padding-left: 15px;
+      position: relative;
+      font-size: 0.9em;
+    }
+    .main ul li::before {
+      content: "▹";
+      position: absolute;
+      left: 0;
+      color: #3498db;
+      font-weight: bold;
+    }
+    .job-title {
+      font-weight: bold;
+      color: #3498db;
+    }
+    .qr {
+      text-align: center;
+      margin-top: 15px;
+    }
+    .qr img {
+      width: 90px;
+      height: 90px;
+      border: 2px solid #3498db;
+      border-radius: 8px;
+      padding: 4px;
+      background: #fff;
+    }
+    .download-btn {
+      display: block;
+      margin: 20px auto 0;
+      padding: 8px 16px;
+      background: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.9em;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .download-btn:hover {
+      background: #2176bd;
+    }
+    @media print {
+      body { background: #fff; }
+      .container { box-shadow: none; margin: 0; border-radius: 0; }
+      .sidebar, .main { padding: 12px; }
+      .main section, .sidebar { page-break-inside: avoid; }
+      .download-btn { display: none; } /* Hide button in PDF */
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="resume">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h1>Shantenisa Fransman</h1>
+      <p>Kraaifontein, Cape Town</p>
+      <p>083 955 0179</p>
+      <p>shantenisa35@gmail.com</p>
+      <p>South African | Bilingual (English & Afrikaans)</p>
+
+      <h2>Core Competencies</h2>
+      <ul>
+        <li>Debtor Management</li>
+        <li>Reconciliation</li>
+        <li>Invoicing & Credits</li>
+        <li>Query Resolution</li>
+        <li>Reporting & Administration</li>
+        <li>Stock Control</li>
+        <li>Customer Service</li>
+      </ul>
+
+      <h2>Tools</h2>
+      <ul>
+        <li>Next Gen</li>
+        <li>Syspro</li>
+        <li>Pastel</li>
+        <li>MS Office Suite</li>
+      </ul>
+
+      <h2>Education</h2>
+      <p>Matric – Bernardino Heights High School</p>
+      <p>Public Management – Cape Peninsula Technical College (2002)</p>
+
+      <h2>References</h2>
+      <p>Melissa Muller – Ellies Electronics</p>
+      <p>Natalie van Tonder – Henchem</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+      <section>
+        <h2>Profile</h2>
+        <p>Meticulous and goal-oriented professional with strong communication and leadership skills. Experienced in administration, supply chain coordination, and debtor management. Daily user of <span class="job-title">Next Gen</span> and <span class="job-title">Syspro</span> systems.</p>
+      </section>
+
+      <section>
+        <h2>Current Role: Debtors Clerk</h2>
+        <ul>
+          <li>Managing debtor function, reconciling accounts</li>
+          <li>Processing invoices, credit notes, reprints</li>
+          <li>Resolving client queries & overdue accounts</li>
+          <li>Preparing debtor reports (daily/weekly/monthly)</li>
+          <li>Performing credit checks & updating limits</li>
+          <li>Ensuring compliance with policies</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Employment History</h2>
+        <p><span class="job-title">Ellies Electronics</span> (Apr 2019 – Dec 2023) – Operational Assistant <em>(Retrenched)</em></p>
+        <ul>
+          <li>Handled transfers, receipts, orders, returns</li>
+          <li>Processed credit/debit & stock adjustments</li>
+          <li>Coordinated branch transfers & couriers</li>
+        </ul>
+
+        <p><span class="job-title">Henchem</span> (2011 – 2018) – Supply Chain Coordinator</p>
+        <ul>
+          <li>Liaised with suppliers & ordered stock</li>
+          <li>Captured data & reconciled purchase orders</li>
+          <li>Managed invoicing, petty cash, quotations</li>
+        </ul>
+
+        <p><span class="job-title">Henchem</span> (2010 – 2011) – Receptionist/Administrator</p>
+        <ul>
+          <li>Switchboard operator & client liaison</li>
+          <li>Handled invoicing, petty cash, stationery</li>
+        </ul>
+      </section>
+
+      <div class="qr">
+        <p>Scan to view LinkedIn Profile:</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=90x90&data=https://www.linkedin.com/in/shantenisa-fransman" alt="LinkedIn QR Code">
+      </div>
+
+      <!-- Download Button -->
+      <button class="download-btn" onclick="downloadPDF()">Download Resume as PDF</button>
+    </div>
+  </div>
+
+  <!-- PDF Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <script>
+    function downloadPDF() {
+      const element = document.getElementById('resume');
+      const opt = {
+        margin: 0.2,
+        filename: 'Shantenisa-Fransman-Resume.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true }, // ensures QR loads
+        jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+      };
+      html2pdf().set(opt).from(element).save();
+    }
+  </script>
+</body>
+</html>
